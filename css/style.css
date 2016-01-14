@@ -1,0 +1,152 @@
+/* GENERAL STYLES
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+
+.container{
+	max-width: 1000px;
+}
+
+img{
+	width: 100%;
+}
+
+
+/* search-form STYLES
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.search-form{
+	text-align: center;
+	max-width: 700px;
+    margin: 0px auto;
+}
+
+.search-form > .form-title{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding: 20px 0px;
+}
+
+.display-labels{
+	margin-bottom: 5px;
+	position: relative;
+	text-align: left;
+}
+
+.display-labels img{
+	max-width:40px; 
+	margin-right: 10px;
+}
+
+.display-labels img, .display-labels p{
+	display: inline;
+}
+
+.display-labels p{
+	text-transform: uppercase;
+	 color: #999;
+}
+
+.display-labels span{
+	position: absolute;
+	bottom: 0px;
+}
+
+.display-labels p, .search-form > .form-title, .current-text,.actual-form button{
+	letter-spacing: 1.4px;
+}
+
+.actual-form{
+	clear: both;
+}
+
+.actual-form input, .actual-form button{
+	width: 100%;
+}
+
+.actual-form input{
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.actual-form button{
+	padding: 11px;
+	color: #fff;
+	background-color: #000;
+	border: 0px;
+	text-transform: uppercase;
+}
+
+.actual-form .search-btn-container{
+	padding-left: 0px;
+}
+
+.word-list{
+	padding: 0px;
+}
+
+.word-list p{
+	margin: 0px;
+	letter-spacing: 1.2px;
+}
+
+.word-list li{
+	list-style-type: none;
+	display: inline-block;
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.current-text{
+	font-size: 1.5em;
+	font-weight: 700;
+	font-family: 'Times';
+}
+
+.ads-container{
+	text-align: center;
+	clear: both;
+}
+.ads{
+	max-width: 450px;
+	margin: 150px auto 0px auto;
+}
+
+
+
+/* MEDIA QUERIES STYLES
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+@media only screen and (max-width : 767px) {
+	.display-labels{
+		text-align: center;
+	}
+	.display-labels img, .display-labels p{
+		display: block;
+	}
+	.display-labels img{
+		margin: 0px auto;
+	}
+	.display-labels span{
+		position: static;
+	}
+	.actual-form .search-btn-container{
+		padding-left: 15px;
+	}
+	.actual-form button{
+		max-width: 200px;
+		margin: 20px 0px;
+	}
+	.word-list{
+		width: 95%;
+    	margin: 0px auto;
+	}
+	.word-list li{
+    	width: 33.3333%;
+	}
+	.current-text{
+		text-align: left;
+	}
+}
+
+
+
+
+
